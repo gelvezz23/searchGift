@@ -2,6 +2,7 @@
 
 import React from 'react';
 import GifItem from './gifItem';
+import PropTypes from 'prop-types';
 
 import useFetchGift from '../hooks/useFetchGift';
 function GifGrid({ category }) {
@@ -21,5 +22,9 @@ function GifGrid({ category }) {
 		</>
 	);
 }
+
+GifGrid.propTypes = {
+	category: PropTypes.string.isRequired,
+};
 
 export default GifGrid;

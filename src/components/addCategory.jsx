@@ -3,14 +3,14 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
-function AddCategory({ setcategories, categories }) {
+function AddCategory({ setcategories }) {
 	const [inputValue, setinputValue] = useState('');
 
 	const handleSubmit = (event) => {
 		event.preventDefault();
 
 		if (inputValue.trim().length > 2) {
-			setcategories([inputValue, ...categories]);
+			setcategories((cats) => [inputValue, ...cats]);
 			setinputValue('');
 		}
 	};
@@ -21,6 +21,7 @@ function AddCategory({ setcategories, categories }) {
 
 	return (
 		<form onSubmit={handleSubmit}>
+			<p> {inputValue} </p>
 			<input
 				type='text'
 				placeholder='Escribe algo ...'

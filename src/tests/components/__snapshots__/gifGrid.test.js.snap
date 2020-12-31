@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en componente <gifGrid/> Debe de mostrar items cuando se le cargan imagenes con el customHook 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeInDown"
+  >
+    hunter x hunter
+  </h3>
+  <div
+    className="card-grid animate__animated animate__fadeInDown"
+  >
+    <GifItem
+      id="ABC"
+      image="https://localhost/algo.jpg"
+      key="ABC"
+      title="algo que no se"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en componente <gifGrid/> El componente de visualiza correctamente 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeInDown"
+  >
+    hunter x hunter
+  </h3>
+  <p>
+    Loading ...
+  </p>
+  <div
+    className="card-grid animate__animated animate__fadeInDown"
+  />
+</Fragment>
+`;

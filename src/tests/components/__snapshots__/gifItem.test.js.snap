@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas de el componente <gifItem/> Debe de mostrar el componente correctamente 1`] = `
+<div
+  className="card animate__animated animate__fadeInDown"
+>
+  <p />
+  <img />
+</div>
+`;
+
+exports[`Pruebas de el componente <gifItem/> Debe de mostrar el componente correctamente enviando le props 1`] = `
+<div
+  className="card animate__animated animate__fadeInDown"
+>
+  <p>
+    un titulo
+  </p>
+  <img
+    alt="un titulo"
+    src="https://localhost/algo.jpg"
+  />
+</div>
+`;

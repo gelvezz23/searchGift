@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en  <addCategory/> Debe de mostrar se correctamente 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <p>
+     
+     
+  </p>
+  <input
+    onChange={[Function]}
+    placeholder="Escribe algo ..."
+    type="text"
+    value=""
+  />
+  <button
+    type="submit"
+  >
+     Agregar nuevo
+  </button>
+</form>
+`;
